@@ -11,4 +11,9 @@ print validate_dob("2017", "November", "18")	# Returns False
 print validate_dob("2010", "NoMonth", "18")		# Returns False
 print validate_dob("2010", "January", "39")		# Returns False
 print validate_dob("2010", "January", "18")		# Returns True
+
+# Leap Years
+print validate_dob("2004", "February", "29")     # Returns True
+print validate_dob("2005", "February", "29")     # Returns False
+
 ```
